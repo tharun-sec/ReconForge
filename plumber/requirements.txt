@@ -1,0 +1,4 @@
+requests
+python-nmap
+python-whois
+dnspython
