@@ -1,0 +1,99 @@
+{
+    "target": "nmap.org",
+    "dns": {
+        "A": [
+            "50.116.1.184"
+        ],
+        "MX": [
+            "10 ASPMX2.GOOGLEMAIL.COM.",
+            "10 ASPMX3.GOOGLEMAIL.COM.",
+            "5 ALT2.ASPMX.L.GOOGLE.COM.",
+            "5 ALT1.ASPMX.L.GOOGLE.COM.",
+            "1 ASPMX.L.GOOGLE.COM."
+        ],
+        "NS": [
+            "ns3.linode.com.",
+            "ns4.linode.com.",
+            "ns1.linode.com.",
+            "ns5.linode.com.",
+            "ns2.linode.com."
+        ],
+        "TXT": [
+            "\"v=spf1 a mx ptr ip4:50.116.1.184 ip6:2600:3c01::f03c:91ff:fe98:ff4e ip6:2600:3c01:e000:3e6::6d4e:7061 include:_spf.google.com ~all\"",
+            "\"google-site-verification=SrtYpJGxZzMTcczZG44XtLVK-sEPit9bputDjWc0lF4\""
+        ]
+    },
+    "whois": {
+        "domain": "nmap.org",
+        "registrar": "DYNADOT LLC",
+        "created": "1999-01-18 05:00:00+00:00",
+        "expires": "2029-01-18 05:00:00+00:00"
+    },
+    "subdomains": [
+        "ack.nmap.org",
+        "canme.nmap.org",
+        "changeme.nmap.org",
+        "forum.nmap.org",
+        "issues.nmap.org",
+        "research.nmap.org",
+        "scanme.nmap.org",
+        "scanme2.nmap.org",
+        "scanmev6.nmap.org",
+        "scannme.nmap.org",
+        "svn.nmap.org",
+        "wildcard-test.nmap.org",
+        "wildcard.nmap.org",
+        "ww.nmap.org",
+        "www.nmap.org",
+        "wwww.nmap.org"
+    ],
+    "headers": {
+        "Date": "Fri, 05 Jun 2026 09:14:39 GMT",
+        "Server": "Apache/2.4.6 (CentOS)",
+        "Strict-Transport-Security": "max-age=31536000; preload",
+        "Vary": "Host",
+        "Accept-Ranges": "bytes",
+        "Keep-Alive": "timeout=3, max=100",
+        "Connection": "Keep-Alive",
+        "Transfer-Encoding": "chunked",
+        "Content-Type": "text/html; charset=utf-8"
+    },
+    "ports": [
+        {
+            "port": 22,
+            "protocol": "tcp",
+            "service": "ssh",
+            "product": "OpenSSH",
+            "version": "7.4"
+        },
+        {
+            "port": 70,
+            "protocol": "tcp",
+            "service": "gopher",
+            "product": "",
+            "version": ""
+        },
+        {
+            "port": 80,
+            "protocol": "tcp",
+            "service": "http",
+            "product": "Apache httpd",
+            "version": "2.4.6"
+        },
+        {
+            "port": 113,
+            "protocol": "tcp",
+            "service": "ident",
+            "product": "",
+            "version": ""
+        },
+        {
+            "port": 443,
+            "protocol": "tcp",
+            "service": "http",
+            "product": "Apache httpd",
+            "version": "2.4.6"
+        }
+    ],
+    "os": "Linux 5.0 - 5.14"
+}

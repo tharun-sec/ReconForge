@@ -1,0 +1,77 @@
+RECONFORGE REPORT
+==================================================
+
+Generated: 2026-06-05 14:45:58.479802
+
+Target: nmap.org
+OS: Linux 5.0 - 5.14
+
+WHOIS INFORMATION
+--------------------------------------------------
+domain: nmap.org
+registrar: DYNADOT LLC
+created: 1999-01-18 05:00:00+00:00
+expires: 2029-01-18 05:00:00+00:00
+
+SUBDOMAINS
+--------------------------------------------------
+ack.nmap.org
+canme.nmap.org
+changeme.nmap.org
+forum.nmap.org
+issues.nmap.org
+research.nmap.org
+scanme.nmap.org
+scanme2.nmap.org
+scanmev6.nmap.org
+scannme.nmap.org
+svn.nmap.org
+wildcard-test.nmap.org
+wildcard.nmap.org
+ww.nmap.org
+www.nmap.org
+wwww.nmap.org
+
+DNS INFORMATION
+--------------------------------------------------
+
+A Records:
+  50.116.1.184
+
+MX Records:
+  10 ASPMX2.GOOGLEMAIL.COM.
+  10 ASPMX3.GOOGLEMAIL.COM.
+  5 ALT2.ASPMX.L.GOOGLE.COM.
+  5 ALT1.ASPMX.L.GOOGLE.COM.
+  1 ASPMX.L.GOOGLE.COM.
+
+NS Records:
+  ns3.linode.com.
+  ns4.linode.com.
+  ns1.linode.com.
+  ns5.linode.com.
+  ns2.linode.com.
+
+TXT Records:
+  "v=spf1 a mx ptr ip4:50.116.1.184 ip6:2600:3c01::f03c:91ff:fe98:ff4e ip6:2600:3c01:e000:3e6::6d4e:7061 include:_spf.google.com ~all"
+  "google-site-verification=SrtYpJGxZzMTcczZG44XtLVK-sEPit9bputDjWc0lF4"
+
+HTTP HEADERS
+--------------------------------------------------
+Date: Fri, 05 Jun 2026 09:14:39 GMT
+Server: Apache/2.4.6 (CentOS)
+Strict-Transport-Security: max-age=31536000; preload
+Vary: Host
+Accept-Ranges: bytes
+Keep-Alive: timeout=3, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=utf-8
+
+OPEN PORTS
+--------------------------------------------------
+22/tcp ssh OpenSSH 7.4
+70/tcp gopher  
+80/tcp http Apache httpd 2.4.6
+113/tcp ident  
+443/tcp http Apache httpd 2.4.6
